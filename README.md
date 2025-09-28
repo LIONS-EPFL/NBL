@@ -2,7 +2,9 @@
 
 ## Authors: Mete Erdogan, Francesco Tonin, Volkan Cevher
 
-![Overview of Neural Block Linearization](figures/nbl_overview.png)
+<p align="center">
+  <img src="figures/nbl_overview.pdf" alt="Overview of Neural Block Linearization" width="500"/>
+</p>
 
 ## Abstract
 The high inference demands of transformer-based Large Language Models (LLMs) pose substantial challenges in their deployment. To this end, we introduce Neural Block Linearization (NBL), a novel framework for accelerating transformer model inference by replacing self-attention layers with linear approximations derived from Linear Minimum Mean Squared Error estimators. NBL leverages Canonical Correlation Analysis to compute a theoretical upper bound on the approximation error. Then, we use this bound as a criterion for substitution, selecting the LLM layers with the lowest linearization error. NBL can be efficiently applied to pre-trained LLMs without the need for fine-tuning. In experiments, NBL achieves notable computational speed-ups while preserving competitive accuracy on multiple reasoning benchmarks. For instance, applying NBL to 12 self-attention layers in DeepSeek-R1-Distill-Llama-8B increases the inference speed by 32\% with less than 1\% accuracy trade-off, making it a flexible and promising solution to improve the inference efficiency of LLMs.
