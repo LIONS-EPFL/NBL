@@ -3,7 +3,8 @@
 ## Authors: Mete Erdogan, Francesco Tonin, Volkan Cevher
 
 <p align="center">
-  <img src="figures/nbl_overview.pdf" alt="Overview of Neural Block Linearization" width="500"/>
+  <img src="figures/nbl_overview.png" alt="Overview of Neural Block Linearization" width="650"/>
+  <figcaption><b>Figure:</b> Illustration of Neural Block Linearization (NBL), which replaces a multi-head attention layer with an efficient linear layer using the closed-form LMMSE estimator.</figcaption>
 </p>
 
 ## Abstract
