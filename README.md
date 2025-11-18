@@ -6,10 +6,6 @@
 
 🔗 Paper link: [Efficient Large Language Model Inference with Neural Block Linearization](https://arxiv.org/abs/2505.21077)
 
----
-## Page Under Construction!
----
-
 <p align="center">
   <img src="figures/nbl_overview.png" alt="Overview of Neural Block Linearization" width="650"/>
   <figcaption><b>Figure:</b> Illustration of Neural Block Linearization (NBL), which replaces a multi-head attention layer with an efficient linear layer using the closed-form LMMSE estimator.</figcaption>
@@ -114,6 +110,7 @@ python calc.py
 ---
 
 ## Citation
+```
 @article{erdogan2025efficient,
   title={Efficient Large Language Model Inference with Neural Block Linearization},
   author={Erdogan, Mete and Tonin, Francesco and Cevher, Volkan},
